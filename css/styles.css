@@ -1,0 +1,11 @@
+/* Custom styling for white pieces for visibility */
+.white-piece {
+  font-weight: 900;
+  text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
+}
+
+/* Black piece styling */
+.black-piece {
+  color: black;
+  font-weight: 700;
+}

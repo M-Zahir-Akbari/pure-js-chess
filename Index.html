@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chess</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body
+    class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen"
+  >
+    <h1 class="text-3xl font-bold mb-2">Chess Game</h1>
+
+    <div class="flex gap-4 mb-3">
+      <div id="turn"></div>
+      <div id="status" class="text-red-400 font-semibold"></div>
+    </div>
+
+    <div id="board" class="grid grid-cols-8 border-4 border-gray-700"></div>
+
+    <!-- Chess Logic -->
+    <script src="js/chess.js"></script>
+  </body>
+</html>
